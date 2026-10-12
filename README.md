@@ -25,7 +25,7 @@ Heart disease remains one of the leading causes of death worldwide, making early
 - XGBoost achieved an F1-score of 0.837 before tuning, improving to **0.891 after hyperparameter tuning**, a performance gain of 6.3%.
 - Exploratory analysis found that older age, higher resting blood pressure, reversible defect on the thallium test, downsloping ST segment, and ST-T wave abnormality on ECG were associated with a higher likelihood of heart disease, while several commonly assumed risk indicators (such as high fasting blood sugar or presence of angina) were not always consistent predictors in this dataset.
 
-## Tools and Technologies
+## Tools
 - Python (pandas, NumPy, matplotlib/seaborn for EDA, scikit-learn for Logistic Regression, XGBoost library)
 - Jupyter Notebook
 
