@@ -1,6 +1,6 @@
 # Heart Disease Prediction Using Logistic Regression and XGBoost
 
-## Project Overview
+## Overview
 Heart disease remains one of the leading causes of death worldwide, making early detection and risk prediction critically important. This project applies and compares two supervised machine learning algorithms, Logistic Regression and XGBoost, to predict whether an individual is at risk of heart disease based on a set of clinical and demographic attributes. The project also includes a thorough exploratory data analysis (EDA) to understand which health indicators are most strongly associated with heart disease.
 
 ## Objectives
@@ -25,7 +25,7 @@ Heart disease remains one of the leading causes of death worldwide, making early
 - XGBoost achieved an F1-score of 0.837 before tuning, improving to **0.891 after hyperparameter tuning**, a performance gain of 6.3%.
 - Exploratory analysis found that older age, higher resting blood pressure, reversible defect on the thallium test, downsloping ST segment, and ST-T wave abnormality on ECG were associated with a higher likelihood of heart disease, while several commonly assumed risk indicators (such as high fasting blood sugar or presence of angina) were not always consistent predictors in this dataset.
 
-## Tools
+## Tools & Libraries
 - Python (pandas, NumPy, matplotlib/seaborn for EDA, scikit-learn for Logistic Regression, XGBoost library)
 - Jupyter Notebook
 
